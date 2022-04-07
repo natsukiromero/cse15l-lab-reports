@@ -1,2 +1,3 @@
 # hello!
-**bold wheee** as well as *italics*
+**bold** as well as *italics*
+***
