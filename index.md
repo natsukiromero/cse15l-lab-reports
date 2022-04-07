@@ -1,2 +1,2 @@
-# Heading 2 hello!
+# hello!
 **bold wheee** as well as *italics*
