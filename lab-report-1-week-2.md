@@ -23,4 +23,12 @@ How to log into a course-specific account on ieng6: <br>
 ![Image](scp.jpg)
 ## Setting an SSH Key <br>
 - It can be annoying to type out your password so often, so the command *ssh-keygen* was created to help. This command creates a pair of keys (one on the client(your) side and one on the server(ieng6) side). These keys together form an alternate method of authentification.
+- On your own computer, run $ ssh-keygen. You will be asked where to save the key, and you should return the location in the paranthesis of the prompt (in blue text).
+![Image](key-location.jpg)
+- Next, you will be asked to enter a passphrase, with the option to leave the passphrase blank. For Lab 1, we were instructed to leave it blank. You will also need to enter it a second time for confirmation.
+![Image](make-key.jpg)
+- We now need to copy the key onto the server, so log in and use the command $ mkdir .ssh
+- Logout and use the command $ scp \Users\natsuki/.ssh/id_rsa.pub cs15lsp22anb@ieng6.ucsd.edu:~/.ssh/authorized_keys (using your own location and account name of course) to copy the file to your computer. Once this step is complete, you should be able to *ssh* and *scp* without a password (assuming your passphrase is empty).
+![Image](key-last-steps.jpg)
+- Please note that this image does not contain the $ mkdir .ssh step
 ## Optimizing Remote Running <br>
