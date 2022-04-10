@@ -9,7 +9,7 @@ How to log into a course-specific account on ieng6: <br>
 - Next, use [UCSD Account Lookup](https://sdacs.ucsd.edu/~icc/index.php) to find your username for your specified course. It will be listed under Additional Accounts (highlighted in yellow). <br>
 ![Image](find-account.jpg)
 - Make a file in VSCode and open a new terminal. Then use the command $ ssh cs15lsp22anb@ieng6.ucsd.edu. Note that the part before the @ieng6.ucsd.edu matches the course specific account name as seen in the previous image (underlined in pink).
-- If this is your first time attempting to log in, you will receive a message asking you to confirm that you want to log in. You will do this by entering $ yes.
+- If this is your first time attempting to log in, you will receive a message asking you to confirm that you want to log in. You will do this by entering $ yes
 - The system will then prompt you for a password. This password is the same as your global password (aka the one you use for AD Login). Note that for security purposes, when you type into the password field there will be nothing to indicate that it is being typed, not even ***.
 - If successful, you should see the message depicted below: <br>
 ![Image](login.jpg)
