@@ -21,7 +21,7 @@ How to log into a course-specific account on ieng6: <br>
   
 ## Moving Files with scp <br>
 - The command <mark>scp</mark> is very useful to programmers, as it allows them to copy files back and forth between their own computer and the one they are remotely logged into. It is important to note that this command is always run on the programmers own computer (make sure you are logged out of ssh($ logout)).
-- Create a file on your computer, and then use javac and java to compile and run it to ensure it works. Then use the command $ scp WhereAmI.java cs15lsp22anb@ieng6.ucsd.edu:~/. (You will have to enter your password.)
+- Create a file WhereAmI.java on your computer, and then use javac and java to compile and run it to ensure it works. Then use the command $ scp WhereAmI.java cs15lsp22anb@ieng6.ucsd.edu:~/. (You will have to enter your password.)
 - Using the <mark>ls</mark> command should reveal that WhereAmI.java has been copied to the ieng6 computer. Log into the the ieng6 server, and you will then be able to run javac and java on file on the ieng6 computer.
 ![Image](scp.jpg)
   
