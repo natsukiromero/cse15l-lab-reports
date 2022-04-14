@@ -40,4 +40,6 @@ How to log into a course-specific account on ieng6: <br>
 - In order to make editing and copying files as easy as possible, there are a few shortcuts we can use.
 - Writing a command in quotes at the end of the ssh login command will prompt the computer to remotely login, execute the command, then log back out.
 - Multiptle commands can be run in the same command line using semicolons. <br>
-![Image](semicolon.jpg)
+![Image](semicolon.jpg)<br>
+<br>
+[return to home page](index.html)
