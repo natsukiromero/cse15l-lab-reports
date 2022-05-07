@@ -7,3 +7,5 @@ More work with ieng6 <br>
 - ssh key on user accoung: <br>
 ![Image](id-file.jpg) <br>
 ## Copy whole directories with ```scp -r``` <br>
+- using ```scp -r``` to copy markdown-parser to ieng6
+![Image](3.1.jpg) <br>
