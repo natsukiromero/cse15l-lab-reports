@@ -9,9 +9,6 @@ More work with ieng6 <br>
 ![Image](github-ssh.jpg) <br>
 - ssh key on user accoung: <br>
 ![Image](id-file.jpg) <br>
-
-pushing to github from ieng6
-
 ## Copy whole directories with ```scp -r``` <br>
 - using ```scp -r``` to copy markdown-parser to ieng6
 ![Image](3.1.jpg) <br>
