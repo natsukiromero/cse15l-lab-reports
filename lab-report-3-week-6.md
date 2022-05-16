@@ -1,6 +1,9 @@
 # Lab Report 3
 More work with ieng6 <br>
 ## Streamlining ssh Configuration <br>
+![Image](config.jpg)<br>
+![Image](ssh-login.jpg) <br>
+![Image](scp.jpg)<br>
 ## Setup Github Access from ieng6 <br>
 - ssh key stored in github: <br>
 ![Image](github-ssh.jpg) <br>
