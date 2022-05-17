@@ -33,9 +33,10 @@ The commit message will be added, and this text will disappear.
 - [link to commit](https://github.com/natsukiromero/cse15l-lab-reports/commit/a8797473361ae5a3f2635605292868e1fbccf1bb) <br>
 
 ## Copy whole directories with ```scp -r``` <br>
-- using ```scp -r``` to copy markdown-parser to ieng6
+- the command ```scp -r``` can be used to copy entire directories (such as markdown-parser) to ieng6: <br>
 ![Image](3.1.jpg) <br>
-- logging into ieng6 and running the tests
+- from there, we can log into the ieng6 server and compile and run MarkdownParseTest.java: <br>
 ![Image](test.jpg) <br>
-- combining it all into one line:
+- combining it all into one line using ; and "":
 ![Image](scp-r.jpg) <br>
+When I attempted to do this, I got the error "Disk quota exceeded," and an empty directory was copied into my ieng6 account. I believe that these commands are theoretically correct, but bc the few tutor hours were very busy, I was never able to verify that this would work.
