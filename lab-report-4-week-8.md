@@ -5,8 +5,6 @@ testing MarkdownParse with various snippets <br>
 [my repository](https://github.com/natsukiromero/markdown-parser) <br>
 [other repository](https://github.com/tcarman/markdown-parser) <br>
 
-a quick note: I realized that just by looking, my idea of a valid link does not necessarily agree with what VSCode preview/CommonMark demo, which is why some of the tests failed.
-
 ## Snippet 1
 Test written: <br>
 ![Image](1-1.jpg) <br>
