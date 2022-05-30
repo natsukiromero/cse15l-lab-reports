@@ -37,6 +37,6 @@ Test Results in My Repo: <br>
 ![Image](2-3.jpg) <br>
 
 Test Results in Other Repo: <br>
-![Image](3-2.jpg) <br>
+![Image](3-3.jpg) <br>
 
 Corrections: Due to what I personally had considered a "valid link," any link with spaces in it was considered invalid. In order to return both twitter.com and cse.ucsd.edu, I would simply need to remove the few lines that filter those types of links out.
