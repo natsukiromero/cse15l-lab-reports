@@ -11,7 +11,7 @@ To find the testfiles with different resuts, I directed the output of script.sh 
 - For the given repository, the bug lies in line 75, which adds the code to the ArrayList of results if it is formatted corectly. However, it fails to check if the character at openBracket - 1 is an !, which indicates an image. The code should check (not necessarily in that exact line) for that, and exclude the link if it leads to an image. <br>
 ![Image](1-bug.jpg) <br>
 
-## Test 2: [521.md]
+## Test 2: [521.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/521.md) <br>
 - The given repository was correct, but mine was not, as I discarded the link [baz*] from the results of running the test file. <br>
 -outputs: mine and the given respectivelt <br>
 ![Image](521-outputs.jpg)<br>
