@@ -40,3 +40,5 @@ The commit message will be added, and this text will disappear.
 - combining it all into one line using ; and "":
 ![Image](scp-r.jpg) <br>
 When I attempted to do this, I got the error "Disk quota exceeded," and an empty directory was copied into my ieng6 account. I believe that these commands are theoretically correct, but bc the few tutor hours were very busy, I was never able to verify that this would work.
+<br>
+[return to home page](index.html)

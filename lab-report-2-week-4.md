@@ -21,3 +21,5 @@ This failure-inducing test file included a link to an image, which we do not wan
 symptom: [page.com] <br>
 
 This failure-inducing test file included a link where the brackets and paranthesis did not directly follow each other. The original code did not consider this, only looking for text inside parenthesis after it found a set of brackets. To amend this, the code was changed to filter out links where the open parenthesis did not directly follow the close bracket.
+<br>
+[return to home page](index.html)

@@ -19,3 +19,5 @@ To find the testfiles with different resuts, I directed the output of script.sh 
 ![Image](521-expected.jpg)<br>
 - For my repository, the error lies in the portion of code depicted below. A few weeks ago, I decided that a good way to filter out invalid links was to check for proper domain extensions. Removing the lines of code that check for the domain extension and then requiring it as a condition of being passed to the results would fix this problem.<br>
 ![Image](2-bug.jpg)<br>
+<br>
+[return to home page](index.html)
