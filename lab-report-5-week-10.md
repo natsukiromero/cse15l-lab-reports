@@ -13,7 +13,7 @@ To find the testfiles with different resuts, I directed the output of script.sh 
 
 ## Test 2: [521.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/521.md) <br>
 - The given repository was correct, but mine was not, as I discarded the link [baz*] from the results of running the test file. <br>
--outputs: mine and the given respectivelt <br>
+- outputs: mine and the given respectivelt <br>
 ![Image](521-outputs.jpg)<br>
 - expected output: according to the CommonMark demo site <br>
 ![Image](521-expected.jpg)<br>
