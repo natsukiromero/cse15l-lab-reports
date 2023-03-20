@@ -39,6 +39,6 @@ Test Results in My Repo: <br>
 Test Results in Other Repo: <br>
 ![Image](3-3.jpg) <br>
 
-Corrections: Due to what I personally had considered a "valid link," any link with spaces in it was considered invalid. In order to return both twitter.com and cse.ucsd.edu, I would simply need to remove the few lines that filter those types of links out. AS far as returning https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule, I already have code that removes spaces from the links. In order to return this link, I would want to write similar code that removes line brea]ks/'enter's from the link, perhaps by making sure the url substring begins and ends at the an actual letter/number.
+Corrections: Due to what I personally had considered a "valid link," any link with spaces in it was considered invalid. In order to return both twitter.com and cse.ucsd.edu, I would simply need to remove the few lines that filter those types of links out. AS far as returning https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule, I already have code that removes spaces from the links. In order to return this link, I would want to write similar code that removes line breaks/'enter's from the link, perhaps by making sure the url substring begins and ends at the an actual letter/number.
 <br>
 [return to home page](index.html)
